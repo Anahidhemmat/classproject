@@ -3,6 +3,7 @@ import CaughtPokemon from "./caughtPokemon.js";
 import BestPokemon from "./BestPokemon.js";
 import PokemonMoves from "./pokemonMovies.js";
 import PokemonCity from "./pokemonCity.js";
+import ChangeState from "./changeState.js";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -17,6 +18,7 @@ const App = () => {
       <CaughtPokemon dateProp={date} />
       <PokemonMoves />
       <PokemonCity />
+      <ChangeState />
     </div>
   );
 };
