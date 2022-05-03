@@ -4,6 +4,7 @@ import BestPokemon from "./BestPokemon.js";
 import PokemonMoves from "./pokemonMovies.js";
 import PokemonCity from "./pokemonCity.js";
 import ChangeState from "./changeState.js";
+import ShowData from "./nasa.js";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -19,6 +20,7 @@ const App = () => {
       <PokemonMoves />
       <PokemonCity />
       <ChangeState />
+      <ShowData />
     </div>
   );
 };
