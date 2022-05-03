@@ -6,12 +6,12 @@ const CaughtPokemon = (prop) => {
 
   const catchPokemon = () => {
     if (pokemonNameInput !== "") {
+      // setCaught(caught.concat("pokemon"));
       setCaught([...caught, pokemonNameInput]);
       setPokemonNameInput("");
     } else {
       alert("input is empty");
     }
-    // setCaught(caught.concat("pokemon"));
   };
 
   const handleInputChange = (e) => {
