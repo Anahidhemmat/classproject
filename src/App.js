@@ -5,6 +5,7 @@ import PokemonMoves from "./pokemonMovies.js";
 import PokemonCity from "./pokemonCity.js";
 import ChangeState from "./changeState.js";
 import ShowData from "./nasa.js";
+import SimpleReminder from "./simpleReminder.js";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -21,6 +22,7 @@ const App = () => {
       <PokemonCity />
       <ChangeState />
       <ShowData />
+      <SimpleReminder />
     </div>
   );
 };
