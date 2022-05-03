@@ -6,6 +6,7 @@ import PokemonCity from "./pokemonCity.js";
 import ChangeState from "./changeState.js";
 import ShowData from "./nasa.js";
 import SimpleReminder from "./simpleReminder.js";
+import CreateAccountForm from "./CreatAccountForm.js";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -23,6 +24,7 @@ const App = () => {
       <ChangeState />
       <ShowData />
       <SimpleReminder />
+      <CreateAccountForm />
     </div>
   );
 };
