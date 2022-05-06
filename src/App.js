@@ -1,12 +1,4 @@
-import Logo from "./Logo.js";
-import CaughtPokemon from "./caughtPokemon.js";
-import BestPokemon from "./BestPokemon.js";
-import PokemonMoves from "./pokemonMovies.js";
-import PokemonCity from "./pokemonCity.js";
-import ChangeState from "./changeState.js";
-import ShowData from "./nasa.js";
-import SimpleReminder from "./simpleReminder.js";
-import CreateAccountForm from "./CreatAccountForm.js";
+import PokemonMoves from "./components/ChainingOperator";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -16,7 +8,7 @@ const App = () => {
   };
   return (
     <div>
-      <Logo appName="Pokedex" handleClick={logWhenClicked} />
+      {/* <Logo appName="Pokedex" handleClick={logWhenClicked} />
       <BestPokemon name={abilities} />
       <CaughtPokemon dateProp={date} />
       <PokemonMoves />
@@ -24,7 +16,9 @@ const App = () => {
       <ChangeState />
       <ShowData />
       <SimpleReminder />
-      <CreateAccountForm />
+      <CreateAccountForm /> */}
+
+      <PokemonMoves />
     </div>
   );
 };
