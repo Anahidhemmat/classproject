@@ -1,5 +1,6 @@
 import PokemonMoves from "./components/ChainingOperator";
 import Counter from "./components/Counter";
+import CreateAccountForm from "./components/CreatAccountForm";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -20,7 +21,8 @@ const App = () => {
       <CreateAccountForm /> */}
 
       {/* <PokemonMoves /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <CreateAccountForm />
     </div>
   );
 };
